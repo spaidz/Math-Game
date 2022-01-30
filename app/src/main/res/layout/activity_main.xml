@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/one"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="75dp"
+        android:ellipsize="middle"
+        android:text="addition"
+        app:backgroundTint="#E45E34"
+        app:cornerRadius="10dp"
+        app:elevation="7dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="35dp"
+        android:ellipsize="middle"
+        android:text="subtraction"
+        app:backgroundTint="#E45E34"
+        app:cornerRadius="10dp"
+        app:elevation="7dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="35dp"
+        android:ellipsize="middle"
+        android:text="multiplication"
+        app:backgroundTint="#E45E34"
+        app:cornerRadius="10dp"
+        app:elevation="7dp" />
+</LinearLayout>
